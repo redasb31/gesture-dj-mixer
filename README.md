@@ -61,24 +61,6 @@ gesture-dj-mixer/
 
 Camera access generally requires **HTTPS** or **localhost**. Do not open the file directly with `file://`.
 
-### Option A: Python (recommended)
-From the project folder:
-
-```bash
-python3 -m http.server 8000
-```
-
-Then open:
-- `http://localhost:8000`
-
-### Option B: Node (http-server)
-```bash
-npm i -g http-server
-http-server -p 8000
-```
-
----
-
 ## Hand Controls
 
 The app uses **two hands**:
